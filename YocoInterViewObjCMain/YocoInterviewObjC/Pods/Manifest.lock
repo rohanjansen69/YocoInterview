@@ -1,0 +1,10 @@
+PODS:
+  - LinqToObjectiveC (2.0.0)
+
+DEPENDENCIES:
+  - LinqToObjectiveC (~> 2.0)
+
+SPEC CHECKSUMS:
+  LinqToObjectiveC: db2ceec81d45192ffe971bbd8e73ef0de614723c
+
+COCOAPODS: 0.35.0

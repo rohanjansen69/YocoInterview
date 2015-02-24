@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BA0B88B7D7899A8B17F75B8 /* libPods-YocoInterviewObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F82CD1B4F7B68880178852C0 /* libPods-YocoInterviewObjC.a */; };
+		C00ABA1B1A8CE48300F3DF77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C00ABA1A1A8CE48300F3DF77 /* main.m */; };
+		C00ABA1E1A8CE48300F3DF77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C00ABA1D1A8CE48300F3DF77 /* AppDelegate.m */; };
+		C00ABA241A8CE48300F3DF77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00ABA221A8CE48300F3DF77 /* Main.storyboard */; };
+		C00ABA261A8CE48300F3DF77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00ABA251A8CE48300F3DF77 /* Images.xcassets */; };
+		C00ABA291A8CE48300F3DF77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C00ABA271A8CE48300F3DF77 /* LaunchScreen.xib */; };
+		C00ABA351A8CE48300F3DF77 /* YocoInterviewObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C00ABA341A8CE48300F3DF77 /* YocoInterviewObjCTests.m */; };
+		C00ABA411A8CE4B000F3DF77 /* BusinessCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C00ABA401A8CE4B000F3DF77 /* BusinessCategoriesViewController.m */; };
+		C00ABA451A8CE5CF00F3DF77 /* BusinessCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C00ABA441A8CE5CF00F3DF77 /* BusinessCategory.m */; };
+		C00ABA491A8CE6A600F3DF77 /* RestService.m in Sources */ = {isa = PBXBuildFile; fileRef = C00ABA481A8CE6A600F3DF77 /* RestService.m */; };
+		C00ABA4D1A8CEF6200F3DF77 /* BusinessCategoryItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C00ABA4C1A8CEF6200F3DF77 /* BusinessCategoryItemStore.m */; };
+		C00ABA521A8D0AE300F3DF77 /* NSArray+LinqExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C00ABA4F1A8D0AE300F3DF77 /* NSArray+LinqExtensions.m */; };
+		C00ABA531A8D0AE300F3DF77 /* NSDictionary+LinqExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C00ABA511A8D0AE300F3DF77 /* NSDictionary+LinqExtensions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C00ABA2F1A8CE48300F3DF77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C00ABA0D1A8CE48300F3DF77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C00ABA141A8CE48300F3DF77;
+			remoteInfo = YocoInterviewObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		821DCF99D7F1B58C6E9AA126 /* Pods-YocoInterviewObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YocoInterviewObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YocoInterviewObjC/Pods-YocoInterviewObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		C00ABA151A8CE48300F3DF77 /* YocoInterviewObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YocoInterviewObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00ABA191A8CE48300F3DF77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C00ABA1A1A8CE48300F3DF77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C00ABA1C1A8CE48300F3DF77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C00ABA1D1A8CE48300F3DF77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C00ABA231A8CE48300F3DF77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C00ABA251A8CE48300F3DF77 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C00ABA281A8CE48300F3DF77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C00ABA2E1A8CE48300F3DF77 /* YocoInterviewObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YocoInterviewObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00ABA331A8CE48300F3DF77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C00ABA341A8CE48300F3DF77 /* YocoInterviewObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YocoInterviewObjCTests.m; sourceTree = "<group>"; };
+		C00ABA3F1A8CE4B000F3DF77 /* BusinessCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCategoriesViewController.h; sourceTree = "<group>"; };
+		C00ABA401A8CE4B000F3DF77 /* BusinessCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCategoriesViewController.m; sourceTree = "<group>"; };
+		C00ABA431A8CE5CF00F3DF77 /* BusinessCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCategory.h; sourceTree = "<group>"; };
+		C00ABA441A8CE5CF00F3DF77 /* BusinessCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCategory.m; sourceTree = "<group>"; };
+		C00ABA471A8CE6A600F3DF77 /* RestService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestService.h; sourceTree = "<group>"; };
+		C00ABA481A8CE6A600F3DF77 /* RestService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestService.m; sourceTree = "<group>"; };
+		C00ABA4B1A8CEF6200F3DF77 /* BusinessCategoryItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCategoryItemStore.h; sourceTree = "<group>"; };
+		C00ABA4C1A8CEF6200F3DF77 /* BusinessCategoryItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCategoryItemStore.m; sourceTree = "<group>"; };
+		C00ABA4E1A8D0AE300F3DF77 /* NSArray+LinqExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+LinqExtensions.h"; path = "../NSArray+LinqExtensions.h"; sourceTree = "<group>"; };
+		C00ABA4F1A8D0AE300F3DF77 /* NSArray+LinqExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+LinqExtensions.m"; path = "../NSArray+LinqExtensions.m"; sourceTree = "<group>"; };
+		C00ABA501A8D0AE300F3DF77 /* NSDictionary+LinqExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LinqExtensions.h"; path = "../NSDictionary+LinqExtensions.h"; sourceTree = "<group>"; };
+		C00ABA511A8D0AE300F3DF77 /* NSDictionary+LinqExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LinqExtensions.m"; path = "../NSDictionary+LinqExtensions.m"; sourceTree = "<group>"; };
+		C33B06AB8A9788A54229A970 /* Pods-YocoInterviewObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YocoInterviewObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-YocoInterviewObjC/Pods-YocoInterviewObjC.release.xcconfig"; sourceTree = "<group>"; };
+		F82CD1B4F7B68880178852C0 /* libPods-YocoInterviewObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YocoInterviewObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C00ABA121A8CE48300F3DF77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA0B88B7D7899A8B17F75B8 /* libPods-YocoInterviewObjC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00ABA2B1A8CE48300F3DF77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F42CD8514C98F760F2B9E34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F82CD1B4F7B68880178852C0 /* libPods-YocoInterviewObjC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85B4DA2F841D4446C2D8C544 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				821DCF99D7F1B58C6E9AA126 /* Pods-YocoInterviewObjC.debug.xcconfig */,
+				C33B06AB8A9788A54229A970 /* Pods-YocoInterviewObjC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C00ABA0C1A8CE48300F3DF77 = {
+			isa = PBXGroup;
+			children = (
+				C00ABA171A8CE48300F3DF77 /* YocoInterviewObjC */,
+				C00ABA311A8CE48300F3DF77 /* YocoInterviewObjCTests */,
+				C00ABA161A8CE48300F3DF77 /* Products */,
+				85B4DA2F841D4446C2D8C544 /* Pods */,
+				6F42CD8514C98F760F2B9E34 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C00ABA161A8CE48300F3DF77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C00ABA151A8CE48300F3DF77 /* YocoInterviewObjC.app */,
+				C00ABA2E1A8CE48300F3DF77 /* YocoInterviewObjCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C00ABA171A8CE48300F3DF77 /* YocoInterviewObjC */ = {
+			isa = PBXGroup;
+			children = (
+				C00ABA4E1A8D0AE300F3DF77 /* NSArray+LinqExtensions.h */,
+				C00ABA4F1A8D0AE300F3DF77 /* NSArray+LinqExtensions.m */,
+				C00ABA501A8D0AE300F3DF77 /* NSDictionary+LinqExtensions.h */,
+				C00ABA511A8D0AE300F3DF77 /* NSDictionary+LinqExtensions.m */,
+				C00ABA4A1A8CEF0300F3DF77 /* Managers */,
+				C00ABA461A8CE68B00F3DF77 /* Services */,
+				C00ABA421A8CE5AA00F3DF77 /* Models */,
+				C00ABA1C1A8CE48300F3DF77 /* AppDelegate.h */,
+				C00ABA1D1A8CE48300F3DF77 /* AppDelegate.m */,
+				C00ABA3E1A8CE49000F3DF77 /* Views */,
+				C00ABA221A8CE48300F3DF77 /* Main.storyboard */,
+				C00ABA251A8CE48300F3DF77 /* Images.xcassets */,
+				C00ABA271A8CE48300F3DF77 /* LaunchScreen.xib */,
+				C00ABA181A8CE48300F3DF77 /* Supporting Files */,
+			);
+			path = YocoInterviewObjC;
+			sourceTree = "<group>";
+		};
+		C00ABA181A8CE48300F3DF77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C00ABA191A8CE48300F3DF77 /* Info.plist */,
+				C00ABA1A1A8CE48300F3DF77 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C00ABA311A8CE48300F3DF77 /* YocoInterviewObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				C00ABA341A8CE48300F3DF77 /* YocoInterviewObjCTests.m */,
+				C00ABA321A8CE48300F3DF77 /* Supporting Files */,
+			);
+			path = YocoInterviewObjCTests;
+			sourceTree = "<group>";
+		};
+		C00ABA321A8CE48300F3DF77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C00ABA331A8CE48300F3DF77 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C00ABA3E1A8CE49000F3DF77 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C00ABA3F1A8CE4B000F3DF77 /* BusinessCategoriesViewController.h */,
+				C00ABA401A8CE4B000F3DF77 /* BusinessCategoriesViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C00ABA421A8CE5AA00F3DF77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C00ABA431A8CE5CF00F3DF77 /* BusinessCategory.h */,
+				C00ABA441A8CE5CF00F3DF77 /* BusinessCategory.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C00ABA461A8CE68B00F3DF77 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C00ABA471A8CE6A600F3DF77 /* RestService.h */,
+				C00ABA481A8CE6A600F3DF77 /* RestService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		C00ABA4A1A8CEF0300F3DF77 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C00ABA4B1A8CEF6200F3DF77 /* BusinessCategoryItemStore.h */,
+				C00ABA4C1A8CEF6200F3DF77 /* BusinessCategoryItemStore.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C00ABA141A8CE48300F3DF77 /* YocoInterviewObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00ABA381A8CE48300F3DF77 /* Build configuration list for PBXNativeTarget "YocoInterviewObjC" */;
+			buildPhases = (
+				34E7969DCD6C896F715B8282 /* Check Pods Manifest.lock */,
+				C00ABA111A8CE48300F3DF77 /* Sources */,
+				C00ABA121A8CE48300F3DF77 /* Frameworks */,
+				C00ABA131A8CE48300F3DF77 /* Resources */,
+				4FE51DBD5BB0AD07AEE330BE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YocoInterviewObjC;
+			productName = YocoInterviewObjC;
+			productReference = C00ABA151A8CE48300F3DF77 /* YocoInterviewObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C00ABA2D1A8CE48300F3DF77 /* YocoInterviewObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00ABA3B1A8CE48300F3DF77 /* Build configuration list for PBXNativeTarget "YocoInterviewObjCTests" */;
+			buildPhases = (
+				C00ABA2A1A8CE48300F3DF77 /* Sources */,
+				C00ABA2B1A8CE48300F3DF77 /* Frameworks */,
+				C00ABA2C1A8CE48300F3DF77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C00ABA301A8CE48300F3DF77 /* PBXTargetDependency */,
+			);
+			name = YocoInterviewObjCTests;
+			productName = YocoInterviewObjCTests;
+			productReference = C00ABA2E1A8CE48300F3DF77 /* YocoInterviewObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C00ABA0D1A8CE48300F3DF77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Rohan Jansen";
+				TargetAttributes = {
+					C00ABA141A8CE48300F3DF77 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C00ABA2D1A8CE48300F3DF77 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C00ABA141A8CE48300F3DF77;
+					};
+				};
+			};
+			buildConfigurationList = C00ABA101A8CE48300F3DF77 /* Build configuration list for PBXProject "YocoInterviewObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C00ABA0C1A8CE48300F3DF77;
+			productRefGroup = C00ABA161A8CE48300F3DF77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C00ABA141A8CE48300F3DF77 /* YocoInterviewObjC */,
+				C00ABA2D1A8CE48300F3DF77 /* YocoInterviewObjCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C00ABA131A8CE48300F3DF77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00ABA241A8CE48300F3DF77 /* Main.storyboard in Resources */,
+				C00ABA291A8CE48300F3DF77 /* LaunchScreen.xib in Resources */,
+				C00ABA261A8CE48300F3DF77 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00ABA2C1A8CE48300F3DF77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34E7969DCD6C896F715B8282 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4FE51DBD5BB0AD07AEE330BE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YocoInterviewObjC/Pods-YocoInterviewObjC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C00ABA111A8CE48300F3DF77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00ABA4D1A8CEF6200F3DF77 /* BusinessCategoryItemStore.m in Sources */,
+				C00ABA1E1A8CE48300F3DF77 /* AppDelegate.m in Sources */,
+				C00ABA411A8CE4B000F3DF77 /* BusinessCategoriesViewController.m in Sources */,
+				C00ABA521A8D0AE300F3DF77 /* NSArray+LinqExtensions.m in Sources */,
+				C00ABA1B1A8CE48300F3DF77 /* main.m in Sources */,
+				C00ABA451A8CE5CF00F3DF77 /* BusinessCategory.m in Sources */,
+				C00ABA531A8D0AE300F3DF77 /* NSDictionary+LinqExtensions.m in Sources */,
+				C00ABA491A8CE6A600F3DF77 /* RestService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00ABA2A1A8CE48300F3DF77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00ABA351A8CE48300F3DF77 /* YocoInterviewObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C00ABA301A8CE48300F3DF77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C00ABA141A8CE48300F3DF77 /* YocoInterviewObjC */;
+			targetProxy = C00ABA2F1A8CE48300F3DF77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C00ABA221A8CE48300F3DF77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C00ABA231A8CE48300F3DF77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C00ABA271A8CE48300F3DF77 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C00ABA281A8CE48300F3DF77 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C00ABA361A8CE48300F3DF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C00ABA371A8CE48300F3DF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C00ABA391A8CE48300F3DF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 821DCF99D7F1B58C6E9AA126 /* Pods-YocoInterviewObjC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YocoInterviewObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C00ABA3A1A8CE48300F3DF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C33B06AB8A9788A54229A970 /* Pods-YocoInterviewObjC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YocoInterviewObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C00ABA3C1A8CE48300F3DF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YocoInterviewObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YocoInterviewObjC.app/YocoInterviewObjC";
+			};
+			name = Debug;
+		};
+		C00ABA3D1A8CE48300F3DF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YocoInterviewObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YocoInterviewObjC.app/YocoInterviewObjC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C00ABA101A8CE48300F3DF77 /* Build configuration list for PBXProject "YocoInterviewObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00ABA361A8CE48300F3DF77 /* Debug */,
+				C00ABA371A8CE48300F3DF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00ABA381A8CE48300F3DF77 /* Build configuration list for PBXNativeTarget "YocoInterviewObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00ABA391A8CE48300F3DF77 /* Debug */,
+				C00ABA3A1A8CE48300F3DF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00ABA3B1A8CE48300F3DF77 /* Build configuration list for PBXNativeTarget "YocoInterviewObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00ABA3C1A8CE48300F3DF77 /* Debug */,
+				C00ABA3D1A8CE48300F3DF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C00ABA0D1A8CE48300F3DF77 /* Project object */;
+}
