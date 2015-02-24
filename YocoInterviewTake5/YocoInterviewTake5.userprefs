@@ -1,0 +1,36 @@
+﻿<Properties StartupItem="TablesiOS_demo5/YocoInterviewTake5.csproj">
+  <DisabledProjects>
+    <String>TablesiOS_demo1/TablesiOS_demo1.csproj</String>
+    <String>TablesiOS_demo2/TablesiOS_demo2.csproj</String>
+    <String>TablesiOS_demo3/TablesiOS_demo3.csproj</String>
+    <String>TablesiOS_demo6/TablesiOS_demo6.csproj</String>
+    <String>TablesiOS_demo7/TablesiOS_demo7.csproj</String>
+    <String>TablesiOS_demo4/TablesiOS_demo4.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone5s.8.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TablesiOS_demo5/BusinessCategoryTableSource.cs">
+    <Files>
+      <File FileName="TablesiOS_demo5/Data/SqlLite.cs" Line="1" Column="1" />
+      <File FileName="TablesiOS_demo5/Helper/DBHelper.cs" Line="1" Column="1" />
+      <File FileName="TablesiOS_demo5/Manager/BusinessCategoryManager.cs" Line="1" Column="1" />
+      <File FileName="TablesiOS_demo5/Models/BusinessCategory.cs" Line="1" Column="1" />
+      <File FileName="TablesiOS_demo5/Models/BusinessCategoryList.cs" Line="1" Column="1" />
+      <File FileName="TablesiOS_demo5/Services/BusinessCategoryService.cs" Line="2" Column="2" />
+      <File FileName="TablesiOS_demo5/Views/BusinessCategoryViewController.cs" Line="39" Column="39" />
+      <File FileName="TablesiOS_demo5/Views/BusinessCell.cs" Line="1" Column="1" />
+      <File FileName="TablesiOS_demo5/Views/BusinessCell.designer.cs" Line="1" Column="1" />
+      <File FileName="TablesiOS_demo5/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="TablesiOS_demo5/BusinessCategoryTableSource.cs" Line="43" Column="43" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/rohanjansen/Downloads/ios110-tables-views-in-ios/Lab Materials/Lab 01 resources/TablesiOS_Complete/TablesiOS_demo5/Sessions5ViewController.cs" line="39" column="1" />
+      <Breakpoint file="/Users/rohanjansen/Downloads/ios110-tables-views-in-ios/Lab Materials/Lab 01 resources/TablesiOS_Complete/TablesiOS_demo5/Sessions5ViewController.cs" line="36" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../../Development/Sparrow/Sparrow.Core/ViewModels/SchoolActivation/ActivationViewModel.cs" line="44" offsetX="298" offsetY="645" expression="ex" liveUpdate="False" />
+    <Watch file="../../../../Development/Sparrow/Sparrow.Core/ViewModels/Children/ChildInfoViewModel.cs" line="326" offsetX="349" offsetY="4260" expression="test" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>
